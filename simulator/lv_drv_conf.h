@@ -1,0 +1,14 @@
+#ifndef LV_DRV_CONF_H
+#define LV_DRV_CONF_H
+
+#define USE_SDL 1
+#define SDL_INCLUDE_PATH <SDL2/SDL.h>
+#define SDL_HOR_RES 480
+#define SDL_VER_RES 800
+#define SDL_ZOOM 1
+#define SDL_DOUBLE_BUFFER 1
+#define SDL_RENDER_MODE SDL_RENDER_MODE_DIRECT
+#define SDL_INPUT_LDEV 1
+#define SDL_MOUSEWHEEL_MODE 0
+
+#endif

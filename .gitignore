@@ -1,0 +1,29 @@
+# ESP-IDF and simulator build output
+/build/
+/simulator/build/
+
+# Dependencies restored by the ESP-IDF component manager
+/managed_components/*
+!/managed_components/chmorgan__esp-file-iterator/
+!/managed_components/chmorgan__esp-file-iterator/**
+
+# Downloaded simulator libraries
+/simulator/vendor/
+
+# Vendor flashing tools and prebuilt firmware
+/bin/
+
+# Local caches and editor files
+__pycache__/
+*.py[cod]
+.cache/
+.vscode/settings.json
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Generated SDK backups
+/sdkconfig.old
+
+# Runtime simulator state
+/secretary_content_url.txt
